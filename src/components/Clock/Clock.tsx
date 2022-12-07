@@ -1,11 +1,9 @@
 import * as React from "react";
 import { format } from "date-fns";
+import { useTimer } from "./hooks/useTimer";
 
-type IClockPropsType = {
-  date: Date | null;
-};
-
-export const Clock = ({ date }: IClockPropsType) => {
+export const Clock = () => {
+  const date = useTimer();
   return (
     <div className="table-cell align-middle">
       <div>

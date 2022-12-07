@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Clock } from "./components/Clock";
-import { useTimer } from "./components/Timer";
 import { TodosComponent } from "./components/Todo";
 
 export function App() {
@@ -9,7 +8,7 @@ export function App() {
       <div className="w-7/12 relative">
         {/* set font size, width etc. */}
         <div className="table absolute top-0 right-0 h-full w-full">
-          <Clock date={useTimer()} />
+          <Clock />
         </div>
       </div>
 

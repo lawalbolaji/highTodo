@@ -1,1 +1,1 @@
-export { TodosComponent } from "./Todos";
+export { TodosComponent } from "./TodosComponent";
