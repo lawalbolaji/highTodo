@@ -1,1 +1,1 @@
-## local todo widget
+## A lightweight todo widget
